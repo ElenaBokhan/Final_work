@@ -832,3 +832,112 @@ video{
 	.logo-partners{
 		z-index: 5;
 	}
+	/*============section-bottom==========*/
+	.section-bottom{
+		padding: 80px 370px;
+	}
+	.footer-column{
+		width: 270px;
+		display: flex;
+		flex-wrap: wrap;
+		}
+	.title-footer{
+		color: #ffffff;
+		font-family: Raleway;
+		font-size: 24px;
+		font-weight: 700;
+		margin-top: 20px;
+	}
+	.recent-news{
+		display: block;
+		padding: 21px 0;
+	}
+	.recent-news-active{
+		border-top: 1px solid #252525;
+		border-bottom: 1px solid #252525;
+	}
+	.footer-column-text{
+		color: #555555;
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+	}
+	.date{
+		color: #363636;
+		font-family: Montserrat;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+	.footer-ct-active{
+		color: #c7b299;
+	}
+	.date-active{
+		color: #fff;
+	}
+	.footer-text-blue{
+		color: #00bff3;
+	}
+	.dribble-image{
+		display: block;
+		width: 130px;
+		height: 100px;
+		float: left;
+
+	}
+	.readmore{
+		color: #d1d1d1;
+		font-family: Montserrat;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	.readmore:after{
+		content: "\25b6";
+		position: absolute;
+		right: -15px;
+	}
+	/*=========footer==========*/
+
+	footer{
+		width: 100%;
+		padding: 45px 370px 50px;
+		background-color: #111;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.copyright{
+		display: flex;
+	}
+	.footer-text{
+		color: #555;
+		font-family: Montserrat;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 13px;
+	}
+	.faq{
+		text-transform: uppercase;
+		color: #c7b299;
+	}
+	.footer-text-white{
+		color: #959595;
+	}
+	.author{
+		display: flex;
+	}
+	.footer-link{
+		text-decoration: none;
+		display: block;
+		padding: 0 15px;
+		border-right: 1px solid #555;
+	}
+	.footer-link-last {
+		border: none;
+	}
