@@ -196,12 +196,16 @@ nav{
 	fill: #9a7e5c;
 	cursor: pointer;
 }
+.form-icon{
+	width: 24px;
+	height: 24px;
+	background-image: url(../img/icon-search.svg);
+}
 input[type="search"] {
 	width: 24px;
 	height: 24px;
 	outline: none;
 	background: none;
-	background-image: url(../img/icon-search.svg);
 	position: relative;
 	display: block;
 	border: none;
@@ -222,7 +226,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
 input[type="search"]:focus{
 	width: 200px;
-	
 	transition: width .5s ease-in-out;
 	background: rgba( 85,85,85,0.7);
 	right: 350px;
