@@ -147,7 +147,7 @@ html{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .top-menu {
-	width: 1300px;
+	max-width: 1200px;
 	display: flex;
 	align-items: center;
 	z-index: 2;
@@ -190,7 +190,7 @@ nav {
 }
 
 .menu {
-	margin-left: 200px;
+	
 	&-list {
 		list-style: none;
 		float: left;
@@ -1157,6 +1157,48 @@ footer {
 		border: none;
 	}
 }
+@media (min-width: 577px) and (max-width: 1440px) {
+	.services {    
+		padding: 80px 100px;
+	}
+	.typical{
+		padding: 80px 0px 0 0px;
+	}
+	.purchase{
+		padding: 50px 100px;
+	}
+	.projects-section {
+		padding: 80px 100px;
+	}
+	.project-wrp {
+		justify-content:space-around;
+		min-height: 1100px;
+	}
+	.video-title-wrp{
+		left:27%;
+	}
+	.device-section{
+		padding: 80px 100px 0 100px;
+		max-width: 1440px;
+	}
+	.statistics{
+		padding: 70px 100px 90px;
+	}
+	.posts{
+		max-width: 1280px;
+		padding:80px 20px;
+	}
+	.partners{
+		padding: 140px 100px;
+	}
+	.section-bottom {
+		padding: 80px 80px;
+	}
+	footer{
+		padding: 45px 100px 50px;
+	}
+}
+
 @media (max-width: 576px) {
 	.container {
 		max-width: 100%;
@@ -1201,7 +1243,7 @@ footer {
 		position: absolute;
 		height: 80px;
 		top: 115px;
-		left: -200px;
+		left: 0px;
 		opacity: 0;
 		transition: opacity 400ms ease-in-out;
 	}
@@ -1401,4 +1443,6 @@ footer {
 		margin-bottom: 20px;
 		font-size:11px;
 	}
+
 }
+
